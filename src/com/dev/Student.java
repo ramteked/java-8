@@ -51,14 +51,16 @@ public class Student {
         this.gpa = gpa;
     }
 
-    
-
     public List<String> getActivities() {
         return activities;
     }
 
     public void setActivities(List<String> activities) {
         this.activities = activities;
+    }
+    
+    public void printActivities() {
+    	System.out.println(activities);
     }
 
     @Override
